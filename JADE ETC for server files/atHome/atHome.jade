@@ -1,0 +1,184 @@
+extend ../default
+
+block head
+
+block neck
+
+block body
+
+	//LG SCREEN
+
+	div.container-fluid.chalk.sizer.visible-lg
+		div.row(style="padding-top:100px")
+			div.col-lg-1
+			div.page-header.col-lg-4
+				h1 A New Online Tool for AP Preparation
+				p Practice makes perfect, and OmniScore makes practicing even easier.
+			div.col-lg-6.img-responsive
+				img.img-responsive(src='img/main_placeholder.png')
+			div.col-lg-1
+	div.container-fluid.test-it-out.visible-lg.hidden-xs
+		div.row
+			div.col-lg-3
+			div.col-lg-4.text-center(style='padding-top:5px')
+				h3 Start quizzing yourself today!
+			div.col-lg-3(style='padding-top:10px')
+				a(href='#')
+					span.btn.btn-default.test-button
+					| TEST IT OUT 
+			div.col-lg-2
+	div.container-fluid.body-div.visible-lg
+		div.row
+			div.col-lg-1
+			div.col-lg-5.img-responsive
+					img.img-responsive(src='img/detail1_placeholder.png')
+			div.col-lg-5.text-right(Style="padding-top:40px")
+				h2 Invite your teacher and get your whole class practicing!
+				p Lorem ipsum dolor sit amet, sonsectetur adipiscing elit. 
+				| Suspendisse. sollicitudin bibendum pharetra. Donect tempor vulputate
+				| aliquam. Quisque condimentum commodo quam.
+			div.col-lg-1
+	div.container-fluid.footer.text-center.row.visible-lg
+		div.page-header.text-center.footer-text
+			h1 Start practicing for those high AP scores!
+			h3 SIGN UP FOR FREE TODAY 
+		div.row 
+			div.col-lg-3
+			div.col-lg-6
+				div.input-group.input-group-lg.footer-input.col-centered
+					input.form-control.footer-input-text(type='text', placeholder='Enter E-mail Address')
+			div.col-lg-3
+			br
+		div.row
+			div.col-lg-3
+			div.col-lg-6
+				div.input-group.input-group-lg.footer-input.col-centered
+					input.form-control.footer-input-text(type='text', placeholder='Choose Password')
+			div.col-lg-3
+		br
+		br
+		a(href='#')
+			div.col-centered
+				span.btn.btn-explore.explore-button
+				| EXPLORE NOW
+
+	// END LG SCREEN
+
+	// SM & MD SCREEN 
+
+	div.container-fluid.chalk-sm.visible-sm
+		div.row(style='padding-top:50px')
+			div.page-header.sm.col-sm-12.text-center
+				h1 A New Online Tool for AP Preparation
+				p Practice makes perfect, and OmniScore makes practicing even easier
+			div.col-sm-2
+			div.col-sm-8.img-responsive
+				img.img-responsive(src='img/main_placeholder.png')
+			div.col-sm-2
+	div.container-fluid.chalk-sm.visible-md
+		div.row(style='padding-top:50px')
+			div.page-header.sm.col-sm-12.text-center
+				h1 A New Online Tool for AP Preparation
+				p Practice makes perfect, and OmniScore makes practicing even easier.
+			div.col-sm-2
+			div.col-sm-8
+				img.img-responsive(src='img/main_placeholder.png', style='height:350px')
+			div.col-sm-2
+	div.container-fluid.test-it-out-sm.visible-sm.visible-md
+		div.row
+			div.col-sm-12.text-center
+				h3 Start quizzing yourself today!
+				a(href='#')	
+					br
+					span.btn.btn-default.test-button
+					| TEST IT OUT
+	div.container-fluid.body-div-sm.visible-sm.visible-md
+		div.row
+			div.col-sm-6.img-responsive
+				img.img-responsive(src='img/detail1_placeholder.png')
+			div.col-sm-5.text-right
+				h2 Invite your teacher and get your whole class practicing
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				| Suspendisse sollicitudin bibendum pharetra. Donec tempor vulputate aliquam. 
+				| Quisque bondimentum commood quam.
+			div.col-sm-1
+	div.container-fluid.footer.text-center.row.visible-sm.visible-md
+		div.page-header.sm.text-center.footer-text
+			h1(style='font-size:35px') Start practicing for those high AP scores!
+			h3 SIGN UP FOR FREE TODAY 
+		div.row
+			div.col-sm-3
+			div.col-sm-6
+				div.input-group.input-group-lg.footer-input-sm.col-centered
+					input.form-control.footer-input-text(type='text', placeholder='Enter E-mail Address')
+			div.col-sm-3
+		br
+		div.row
+			div.col-sm-3
+			div.col-sm-6
+				div.input-group.input-group-lg.footer-input-sm.col-centered
+					input.form-control.footer-input-text(type='text',placeholder='Choose Password')
+			div.col-sm-3
+		br
+		br
+		a(href='#')
+			div.col-centered
+				span.btn.btn-explore.explore-button
+				| EXPLORE NOW
+
+	// END SM & MD SCREEN	
+
+	// XS SCREEN
+
+	div.container-fluid.chalk-xs.visible-xs
+		div.row(style='padding-top:10px')
+			div.col-xs-1
+			div.col-xs-10.sm.text-center.page-header
+				h1 A New Online Practice Tool for AP Preparation
+				p Practice makes perfect, and OmniScore makes practicing even easier.
+			div.col-xs-1
+	div.container-fluid.test-it-out-sm.visible-xs
+		div.row
+			div.col-sm-12.text-center
+				h3 Start quizzing yourself today!
+				a(href='#')
+					br
+					span.btn.btn-default.test-button
+					| TEST IT OUT
+	div.container-fluid.body-div-sm.visible-xs
+		div.row
+			div.text-center
+				h2 Invite your teacher and get your whole class practicing
+				p Lorem ipsum dolor sit smet, consectetur adipiscing elit. 
+				| Suspendisse solictiduin bibendum pharetra. Donec tempor vulputate aliquam. 
+				| Quisque condimentum commodo quam.
+			div.img-responsive
+				img.img-responsive(style='padding-top:20px', src='img/detail1_placeholder.png')
+	div.container-fluid.footer.text-center.row.visible-xs
+		div.page-header.sm.text-center.footer-text
+			h1(style='font-size:35px') Start practicing for those high AP scores!
+			h3 SIGN UP FOR FREE TODAY
+		div.row
+			div.col-sm-3
+			div.col-sm-6
+				div.input-group.input-group-lg.footer-input-sm.col-centered
+					input.form-control.footer-input-text(type='text', placeholder='Enter E-mail Address')
+			div.col-sm-3
+		br
+		div.row
+			div.col-sm-3
+			div.col-sm-6
+				div.input-group.input-group-lg.footer-input-sm.col-centered
+					input.form-control.footer-input-text(type='text',placeholder='Choose Password')
+			div.col-sm-3
+		br
+		br
+		a(href=#)
+			div.col-centered
+				span.btn.btn-explore.explore-button
+				| EXPLORE NOW
+	
+
+
+
+

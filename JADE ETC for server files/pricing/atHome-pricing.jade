@@ -1,0 +1,46 @@
+explore../default
+
+block head
+
+block neck
+
+block body
+	div.container
+		div.page-header.pricing-header.text-center
+			h1 At Home Use Pricing 
+			br
+	div.container
+		div.row
+			div.col-lg-12.pricing-text.text-center
+				p Which subjects are you taking?
+				br
+			div.row.text-center
+				div.col-lg-2.hidden-xs
+				div.btn-group.col-lg-2(style='padding-left:35px', data-toggle='buttons')
+					label.btn.btn-subjects
+						input(type='checkbox') Calculus AB
+				div.btn-group.col-lg-2(style='padding-left:35px', data-toggle='buttons')
+					label.btn.btn-subjects
+						input(type='checkbox') Calculus BC 
+				div.btn-group.col-lg-2(style='padding-left:35px',data-toggle='buttons')
+					label.btn.btn-subjects
+						input(type='checkbox') Physics B
+				div.btn-group.col-lg-2(style='padding-left:35px',data-toggle='buttons')
+					label.btn.btn-subjects
+						input(type='checkbox') Statistics
+				div.col-lg-2.hidden-xs
+			div.row
+				div.in-between-pricing.col-lg-12
+				div.col-lg-12.text-center.price-text
+					p Your yearly membership cost is:&nbsp;&nbsp;
+						span.price $100
+				div.in-between-pricing.col-lg-12
+				div.row
+					div.col-lg-12.text-center
+						a(href='#')
+							span.btn.btn-signUp sign up now
+					div.col-lg-12.in-between-pricing
+						p
+							span.glyphicon.glyphicon-envelope.red
+							|&nbsp; Notify your teacher
+								

@@ -1,0 +1,65 @@
+explore../default
+
+block head
+
+block neck
+
+block body
+	div.container
+		div.page-header.pricing-header.text-center
+			h1 At Home Use Pricing 
+			br
+	div.container-fluid
+		div.row
+			div.col-lg-12.pricing-text.text-center
+				p Which subjects do you teach?
+				br
+			div.row.text-center
+				div.col-lg-2.hidden-xs
+				div.btn-group.col-lg-2(style='padding-left:35px', data-toggle='buttons')
+					label.btn.btn-subjects
+						input(type='checkbox') Calculus AB
+				div.btn-group.col-lg-2(style='padding-left:35px', data-toggle='buttons')
+					label.btn.btn-subjects
+						input(type='checkbox') Calculus BC 
+				div.btn-group.col-lg-2(style='padding-left:35px',data-toggle='buttons')
+					label.btn.btn-subjects
+						input(type='checkbox') Physics B
+				div.btn-group.col-lg-2(style='padding-left:35px',data-toggle='buttons')
+					label.btn.btn-subjects
+						input(type='checkbox') Statistics
+				div.col-lg-2.hidden-xs
+			div.col-lg-12.text-center
+				p How many students?
+				br
+				div.container
+					div.slider.slider-horizontal
+						div.slider-track
+							div.slider-selection(style='left:0%; width:100%')
+							div.slider-handle.min-slider-handle.round(tabindex='0', style='left:100%')
+							div.slider-handle.max-slider-handle.round.hide(tabindex='0', style='left:0%')
+					div.tooltip.tooltip-main.top.in(style='left:100%;margin-left:-14.5px')
+						div.tooltip-arrow
+						div.tooltip-inner
+					div.tooltip.tooltip-min.top
+						div.tooltip-arrow
+						div.tooltip-inner
+					div.tooltip.tooltip-max.bottom(style='top:18px')
+						div.tooltip-arrow
+						div.tooltip-inner
+					input(data-slide-id='ex1Slider', type='text', data-slider-min='0', data-slider-max='50', data-slider-step='1', data-slider-value='1', data='value:50', style='display:none')
+			div.row
+				div.in-between-pricing.col-lg-12
+				div.col-lg-12.text-center.price-text
+					p Your yearly membership cost is:&nbsp;&nbsp;
+						span.price $100
+				div.in-between-pricing.col-lg-12
+				div.row
+					div.col-lg-12.text-center
+						a(href='#')
+							span.btn.btn-signUp sign up now
+					div.col-lg-12.in-between-pricing
+						p
+							span.glyphicon.glyphicon-envelope.red
+							|&nbsp; Notify your school administrator
+
